@@ -8,6 +8,7 @@
     <!-- bootstrap -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" crossorigin="anonymous">
     <link rel="stylesheet" href="style/css.css">    
+    <link rel="stylesheet" href="style/spiner.css">
     <title>Incidencias Informática</title>
 </head>
 
@@ -16,7 +17,7 @@
         <div class="col-12 col-xl-6" style="margin:0 auto;margin-top:100px; ">
         <div class="form ml-4">
             <h2 class="text-center ">
-                <b style="font-family: 'Nunito', sans-serif; color:#5c6369;">Incidecias Informática</b>
+                <b style="font-family: 'Nunito', sans-serif; color:white;">Incidecias Informática</b>
             </h2>
             <br>
             <form name="contactform" method="post" action="javascript:;" onsubmit="incidencias()">
@@ -56,10 +57,24 @@
 
                     </div>
                 </div>
-                <input type="submit" value="Enviar"  class="btn btn-outline-secondary">
+                <input type="submit" value="Enviar"  class="btn btn-outline-light">
             </form>
     </div>
-    
+    <div id="spiner">
+        <div class="row">
+            <div id="loader">
+                <div class="dot"></div>
+                <div class="dot"></div>
+                <div class="dot"></div>
+                <div class="dot"></div>
+                <div class="dot"></div>
+                <div class="dot"></div>
+                <div class="dot"></div>
+                <div class="dot"></div>
+                <div class="lading"></div>
+            </div>
+        </div>
+    </div>
 
 </body>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" crossorigin="anonymous"></script>
