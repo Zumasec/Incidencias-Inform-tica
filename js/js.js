@@ -2,7 +2,7 @@ var token = "c52f46bf3aa5c2441847e9fdee3f4583fb77e7aaca0995826d45bc165940fac4";
 var idtablero = "5bd6e4728be14d40e88c64fc"
 var idlist = "5bd6e4728be14d40e88c64fd"
 var appkey = "a358184ea95073f09071d85c1ede7453"
-
+var usuario = "5aabca240fa2e0ee00d049ce"
 function incidencias(){
     var empresa = document.getElementById('empresa').value;
     var nombre = document.getElementById('nombre').value;
@@ -36,7 +36,7 @@ function crearCarta(desc) {
                 var data = null;
                 var name = 'Contactar con:';
                 var xhr = new XMLHttpRequest();
-                var url = "https://api.trello.com/1/cards?name=" + encodeURI(name) + "&desc=" + encodeURI(desc) + "&pos=top&idList=" + idlist + "&keepFromSource=all&key=" + appkey + "&token=" + token;
+                var url = "https://api.trello.com/1/cards?name=" + encodeURI(name) + "&desc=" + encodeURI(desc) + "&pos=top&idList=" + idlist + "&keepFromSource=all&key=" + appkey + "&token=" + token ;
                 url = url.replace(/#/g, '%23');
                 xhr.open("POST", url);
                 xhr.send(data);
