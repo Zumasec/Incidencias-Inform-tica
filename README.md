@@ -1,2 +1,2 @@
-# Incidencias-Inform-tica
+# Incidencias
 trello inci

@@ -1,7 +1,41 @@
-html{
-    background-color: #2b4853eb;
+/* body, html, .contenedor{
+    background-color: rgba(5, 5, 5, 0.767)
+} */
+/* .contenedor{
+    
+    margin: 0 auto;
+    position: absolute;
+   top: 50%;
+   left: 50%;
+   margin-top: -75px;
+   margin-left: -75px;
+} */
+
+body {
+    display: flex;
+    min-height: 100vh;
+    margin: 0;
+   }
+   .contenedor {
+       width: 205px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    /* border: 1px solid #aaa; */
+   }
+   #btnzms{
+    margin: 5px;
+    width: 200px;
 }
-.contenedor{
-    background-color: #2b4853eb;
-    color: white;
+#btncns{
+    margin: 5px;
+    width: 200px;
+}
+#btnfed{
+    margin: 5px;
+    width: 200px;
+}
+#btnmrk{
+    margin: 5px;
+    width: 200px;
 }
