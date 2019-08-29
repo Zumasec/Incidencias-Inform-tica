@@ -15,15 +15,15 @@ body {
     display: flex;
     min-height: 100vh;
     margin: 0;
-   }
-   .contenedor {
-       width: 205px;
+}
+.contenedor {
+    width: 205px;
     display: flex;
     flex-wrap: wrap;
     margin: auto;
     /* border: 1px solid #aaa; */
-   }
-   #btnzms{
+}
+#btnzms{
     margin: 5px;
     width: 200px;
 }
@@ -36,6 +36,10 @@ body {
     width: 200px;
 }
 #btnmrk{
+    margin: 5px;
+    width: 200px;
+}
+#btncampo{
     margin: 5px;
     width: 200px;
 }

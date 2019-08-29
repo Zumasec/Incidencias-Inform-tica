@@ -2,6 +2,7 @@ var zms = document.getElementById('btnzms');
 var fed = document.getElementById('btnfed');
 var cns = document.getElementById('btncns');
 var mrk = document.getElementById('btnmrk');
+var campo = document.getElementById('btncampo');
 var emp = "";
 let spiner = document.getElementById('spiner');
 
@@ -21,6 +22,10 @@ cns.addEventListener('click', function () {
 }, false)
 
 mrk.addEventListener('click', function () {
+    emp = 'mrk';
+    $('#exampleModalCenter').modal('show');
+}, false)
+campo.addEventListener('click', function () {
     emp = 'mrk';
     $('#exampleModalCenter').modal('show');
 }, false)
@@ -123,13 +128,13 @@ function crearCarta(desc, idtablero, idlist, tipo) {
                 }).then((value) => {
                     swal(location.reload());
                 });
-            
+
             }
-       
+
         }
     });
 
-  
+
 }
 
 var archivos = []
