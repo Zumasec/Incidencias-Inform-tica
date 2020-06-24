@@ -41,39 +41,39 @@ var hora = fecha.getHours() + ":" + fecha.getMinutes() + ":" + fecha.getSeconds(
 function donde() {
     var departamento = document.getElementById('Departamento').value;
     if (departamento == 'ADM' && emp == 'fed') {
-        var idtablero = "5bd8a1d81b406d727095a414";
-        var idlist = "5bd8a1e2c6b1cc6e94473a06";
+        var idtablero = "5ef33bebaf62ab82aa9e80f6";
+        var idlist = "5eda143df2cfef642ef46f79";
         incidencias(idtablero, idlist);
     }
 
     if (departamento == 'ADM' && emp == 'cns') {
-        var idtablero = "5bd8a49da945a73e147703ca";
-        var idlist = "5bd8a4e30a1ea80ebe4cea4c";
+        var idtablero = "5ef33bebaf62ab82aa9e80f6";
+        var idlist = "5eda143df2cfef642ef46f79";
         incidencias(idtablero, idlist);
     }
 
     if (departamento == 'ADM' && emp == 'mrk') {
-        var idtablero = "5bd96d6bb2304159ca06c3b7";
-        var idlist = "5bd96f560f85c765d1cff919";
+        var idtablero = "5ef33bebaf62ab82aa9e80f6";
+        var idlist = "5eda143df2cfef642ef46f79";
         incidencias(idtablero, idlist);
     }
 
     if (departamento == 'ADM' && emp == 'zms') {
-        var idtablero = "5bdac8c235762315b08523a4";
-        var idlist = "5bdace52ec9cab8a2ecafe2a";
+        var idtablero = "5ef33bebaf62ab82aa9e80f6";
+        var idlist = "5eda143df2cfef642ef46f79";
         incidencias(idtablero, idlist);
     }
 
     if (departamento == 'RRHH') {
-        var idtablero = "5d65052a93607343ff355124";
-        var idlist = "5bd6e4728be14d40e88c64fd";
+        var idtablero = "5ef33bebaf62ab82aa9e80f6";
+        var idlist = "5eda143df2cfef642ef46f79";
         var tipo = document.getElementById('info').text
         incidencias(idtablero, idlist, tipo);
     }
 
     if (departamento == 'DD') {
-        var idtablero = "5d65052a93607343ff355124";
-        var idlist = "5bd6e4728be14d40e88c64fd";
+        var idtablero = "5ef33bebaf62ab82aa9e80f6";
+        var idlist = "5eda143df2cfef642ef46f79";
         var tipo = document.getElementById('inci').text
         incidencias(idtablero, idlist, tipo);
     }
